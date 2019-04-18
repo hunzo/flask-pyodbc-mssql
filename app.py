@@ -5,7 +5,7 @@ import datetime
 app = Flask(__name__)
 
 conn = pyodbc.connect(
-    # 'DRIVER={FreeTDS};SERVER=202.44.72.201;DATABASE=databasename;UID=username;PWD=123456789;PORT=1433')
+    # 'DRIVER={FreeTDS};SERVER=ipaddress;DATABASE=databasename;UID=username;PWD=123456789;PORT=1433')
     'DSN=DSN_NAME;UID=username;PWD=123456789;PORT=1433')
 
 cursor = conn.cursor()
