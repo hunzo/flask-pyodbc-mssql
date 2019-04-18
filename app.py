@@ -9,7 +9,7 @@ conn = pyodbc.connect(
     # 'DSN=DSN_NAME;UID=username;PWD=123456789;PORT=1433')
 
 cursor = conn.cursor()
-select_string = "SELECT * FROM dbo.person where name1 like 'สุรพงษ์'"
+select_string = "SELECT * FROM dbo.person"
 cursor.execute(select_string)
 data = []
 while True:
