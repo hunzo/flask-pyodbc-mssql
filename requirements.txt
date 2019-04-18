@@ -1,0 +1,5 @@
+flask
+rope
+pylint
+autopep8
+pyodbc
